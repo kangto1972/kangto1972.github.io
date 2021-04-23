@@ -1,0 +1,88 @@
+/*21961029 김태희*/
+  *{
+    margin:0;
+  }
+body{
+  font-family:"나눔고딕";
+  margin: 0;
+  padding: 0;
+  min-width:100px;
+}
+li{
+  list-style-type: none;
+}
+#a_logo a{
+  margin: 0;
+}
+header{
+  font-weight: bold;
+  margin-top:0;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  position: fixed;
+  max-width: none;
+  z-index: 1;
+}
+#menu{
+  padding:10px;
+}
+#menu li{
+  display:inline;
+}
+#menu_category{
+  display:inline;
+  text-align:right;
+  margin: 20px 40px 20px 40px;
+  font-size: 14px;
+  float: right;
+}
+#menu_logo{
+  display:inline;
+  text-align:left;
+  float: left;
+  font-size: 14px;
+  margin: 20px 40px 20px 10px;
+}
+ul li a:hover{
+  color: #aaaaaa;
+}
+#menu_category a{
+  text-decoration: none;
+  color: #111111;
+  margin: 0 20px 0 20px;
+}
+img {
+  display: block; margin: 0px auto;
+}
+a:link{
+  color:#000000;
+  text-decoration:none;
+}
+a:visited{
+  color:#000000;
+}
+a:hover{
+  color:#000000;
+  font-weight:bold;
+  text-decoration:underline;
+}
+a:active{
+  color:#000000;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background-color:#111111;
+    font-size: 12px;
+}
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}
